@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -80,6 +80,20 @@
             <span class="team-count" id="powerCount">0</span>
           </div>
         </div>
+      </div>
+
+      <div class="attendee-list">
+        <h3>Attendee List</h3>
+        <ul id="attendeeList" class="attendee-list-items"></ul>
+      </div>
+    </div>
+
+    <!-- Greeting modal -->
+    <div class="modal" id="greetingModal" aria-hidden="true">
+      <div class="modal-backdrop" id="modalBackdrop"></div>
+      <div class="modal-content" role="dialog" aria-modal="true">
+        <h2 class="modal-title">Check-In Complete</h2>
+        <p class="modal-message" id="modalMessage"></p>
       </div>
     </div>
 
